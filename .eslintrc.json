@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "plugin:tailwindcss/recommended",
+    "@rocketseat/eslint-config/next", 
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "none",
+        "bracketSpacing": true,
+        "arrowParens": "always",
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
