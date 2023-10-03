@@ -94,8 +94,8 @@ export default function Home() {
   };
 
   return (
-    <main className="flex h-screen min-h-screen flex-col bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-500 to-zinc-900 p-24">
-      <div className="flex h-full w-full items-center justify-center sm:flex-row">
+    <main className="flex min-h-screen w-full flex-col bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-500 to-zinc-900 p-4 sm:p-24">
+      <div className="flex h-full w-full flex-col items-center justify-center sm:flex-row">
         <div className="flex h-full w-full flex-col items-center justify-evenly">
           <h1 className="text-center text-5xl font-bold text-zinc-200">
             Olá, eu sou O Dev...
@@ -113,7 +113,7 @@ export default function Home() {
             />
           </div>
           <NameLogoSvg />
-          <div className="mt-8 flex items-center justify-center gap-10 rounded-lg bg-black/10 p-6 px-24 transition-all duration-300 hover:shadow-xl">
+          <div className="mt-8 flex items-center justify-center gap-10 rounded-lg bg-black/10 p-6 px-4 transition-all duration-300 hover:shadow-xl sm:px-24">
             <a
               href="https://www.linkedin.com/in/fellipe-lauton/"
               target="_blank"
@@ -137,9 +137,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="flex h-full w-full flex-col rounded-2xl shadow-2xl">
+        <div className="mt-10 flex h-full w-full flex-col rounded-2xl shadow-2xl sm:mt-0">
           <div className="relative flex h-8 w-full items-end gap-5 rounded-t-2xl border-b border-zinc-400 bg-zinc-800 px-5">
-            <div className="flex h-full items-center justify-center gap-3">
+            <div className="hidden h-full items-center justify-center gap-3 sm:flex">
               <div className="h-3 w-3 cursor-pointer rounded-full bg-red-500/70 transition-all duration-500 hover:bg-red-500" />
               <div className="h-3 w-3 cursor-pointer rounded-full bg-yellow-500/70 transition-all duration-500 hover:bg-yellow-500" />
               <div className="h-3 w-3 cursor-pointer rounded-full bg-green-500/70 transition-all duration-500 hover:bg-green-500" />
